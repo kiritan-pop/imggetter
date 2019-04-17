@@ -5,7 +5,7 @@
 # python getimg.py --hashtag="きりぼっとギャグ,ジェバンニチャレンジ"
 
 from mastodon import Mastodon
-import re, os, json, random, unicodedata, signal, sys, requests
+import re, os, requests
 from time import sleep
 from pprint  import pprint as pp
 import argparse
